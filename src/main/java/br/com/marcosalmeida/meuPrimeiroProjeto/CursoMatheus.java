@@ -10,7 +10,7 @@ public class CursoMatheus {
 
     @GetMapping("/")
     public String escreverFrase(){
-        return "Vamos estudar!!!";
+        return "Vamos estudar agora?";
     }
 
     @GetMapping("/somar/{numero1}/{n2}")
