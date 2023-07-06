@@ -17,4 +17,6 @@ public class CursoMatheus {
     public int somarDoisNumeros(@PathVariable("numero1") int n1, @PathVariable("n2") int n2){
         return  n1 + n2;
     }
+
 }
+
